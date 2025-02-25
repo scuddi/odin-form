@@ -43,8 +43,11 @@
 }
 
 .odin-text {
-    font-family: NorseBold;
+    font-family: NorseBold, Arial;
     font-size: 5em;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
 }
 
 .content-right {
