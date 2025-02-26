@@ -99,7 +99,7 @@
 }
 
 form {
-    width: 80%;
+    width: 65%;
     padding-bottom: 1em
 }
 
@@ -120,14 +120,40 @@ form {
 }
 
 label {
-    font-weight: 700;
+    margin-bottom: 3px;
+
 }
 
 input {
     margin-bottom: 2em;
     margin-right: 4em;
+    width: 20em;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="password"]:invalid {
+    border: 1px solid #D55C5F;
+    color: #D55C5F;
+    box-shadow: none;
 }
 
 .form-submit {
     padding-left: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+#submit {
+    background-color: rgba(52,86,113,255);
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    border-radius: 8px;
+    padding: 1rem 2em;
+    box-shadow: none;
+    border-color: rgba(52,86,113,255);
+    width: 12em;
+    margin-bottom: 5px;
 }
