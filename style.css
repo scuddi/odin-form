@@ -14,7 +14,6 @@
     font-family: FunnelDisplay, Arial;
 }
 
-
 .container {
     display: flex;
     margin: 0;
@@ -68,4 +67,25 @@
 .content-right {
     background-color: rgb(237, 237, 237);
     width: 64%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.form-intro-text {
+    padding-left: 2em;
+}
+
+#heading {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.div-form {
+    padding-left: 2em;
+}
+
+.form-submit {
+    padding-left: 2em;
 }
