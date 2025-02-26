@@ -33,10 +33,47 @@
                 <p class="intro-text">Join now and start building meaningful connections within the Odin Project community!</p>
             </div>
             <div class="div-form">
-                Let's do this:
+                <p id="form-header">Let's do this!</p>
+                <form action="tbc" method="post">
+                    <div class="form-section">
+                        <div class="input-group">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" required>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <div class="input-group">         
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        
+                        <div class="input-group"> 
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <div class="input-group"> 
+                            <label for="pwd">PASSWORD</label>
+                            <input type="password" id="pwd" required>
+                        </div>
+
+                        <div class="input-group"> 
+                            <label for="confirm-pwd">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-pwd" required>
+                        </div>
+                    </div>
+                </form>
             </div>
             <div class="form-submit">
-                <button>Submit</button>
+                <button type="submit" id="submit">Submit</button>
+                <p>Already have an account? <a href="">Log in</a></p>
             </div>
         </div>
     </div>
