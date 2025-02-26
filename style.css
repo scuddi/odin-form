@@ -70,12 +70,13 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: left;
 }
 
 .form-intro-text {
     padding-left: 2em;
+    padding-bottom: 2em;
 }
 
 #heading {
@@ -121,16 +122,16 @@ form {
 
 label {
     margin-bottom: 3px;
-
 }
 
 input {
-    margin-bottom: 2em;
-    margin-right: 4em;
-    width: 20em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+    width: 16em;
     height: 30px;
     border-radius: 4px;
     border: 1px solid #ccc;
+    font-size: 20px;
 }
 
 input[type="password"]:invalid {
@@ -141,19 +142,33 @@ input[type="password"]:invalid {
 
 .form-submit {
     padding-left: 2em;
+    padding-top: 2em;
     display: flex;
     flex-direction: column;
 }
 
 #submit {
-    background-color: rgba(52,86,113,255);
+    background-color: #345671;
     color: white;
     font-weight: 700;
     font-size: 22px;
     border-radius: 8px;
     padding: 1rem 2em;
     box-shadow: none;
-    border-color: rgba(52,86,113,255);
+    border-color: #345671;
     width: 12em;
     margin-bottom: 5px;
+}
+
+#submit:hover {
+    background-color: #497191;
+    cursor: pointer;
+}
+
+.form-submit a {
+    color: black;
+}
+
+.form-submit a:hover {
+    color: #497191
 }
