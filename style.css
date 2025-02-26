@@ -90,7 +90,8 @@
 
 .div-form {
     padding-left: 2em;
-    background-color: whitesmoke;
+    background-color: rgb(250, 248, 248);
+    box-shadow: 0 4px 2px -2px gray;
 }
 
 #form-header {
@@ -99,7 +100,7 @@
 
 form {
     width: 80%;
-    padding-bottom: 2em
+    padding-bottom: 1em
 }
 
 .form-section {
@@ -120,6 +121,11 @@ form {
 
 label {
     font-weight: 700;
+}
+
+input {
+    margin-bottom: 2em;
+    margin-right: 4em;
 }
 
 .form-submit {
