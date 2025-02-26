@@ -93,6 +93,10 @@
     background-color: whitesmoke;
 }
 
+label {
+    font-weight: 700;
+}
+
 .form-submit {
     padding-left: 2em;
 }
