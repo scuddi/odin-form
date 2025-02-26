@@ -50,6 +50,21 @@
     margin-left: 1rem;
 }
 
+.credit {
+    position: absolute;
+    top: 95.5%;
+    left: 35%;
+    color: white;
+}
+
+.credit a {
+    color: white;
+}
+
+.credit a:hover {
+    color: lightgray;
+}
+
 .content-right {
     background-color: rgb(237, 237, 237);
     width: 64%;
