@@ -1,7 +1,7 @@
 # Odin Sign-Up Form
 
 This is the Sign-Up Form project of the The Odin Project. (See: [Project Sign-up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form))
-In this project the aim is to build a web beautiful web-form with HTML and CSS.
+In this project the aim is to build a beautiful web-form with HTML and CSS.
 
 ## Check out my live demo:
 
