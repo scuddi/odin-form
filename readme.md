@@ -3,7 +3,7 @@
 This is the Sign-Up Form project of the The Odin Project. (See: [Project Sign-up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form))
 In this project the aim is to build a beautiful web-form with HTML and CSS to learn the basics and some more advanced knowledge on form layouting and styling.
 
-## Check out my live demo:
+## Check out my live demo
 
 [Live Demo](https://scuddi.github.io/odin-form/)
 
